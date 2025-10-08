@@ -1,4 +1,4 @@
-package memoryCache
+package golang_ninja
 
 type MemoryCache[T any] struct {
 	cacheMap map[string]T
